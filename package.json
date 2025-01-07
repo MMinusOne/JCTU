@@ -17,5 +17,8 @@
     "build": "tsup index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "changeset": "pnpm changeset"
+  },
+  "dependencies": {
+    "jctu": "link:"
   }
 }
